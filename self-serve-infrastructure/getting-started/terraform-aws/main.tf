@@ -6,8 +6,8 @@ resource "aws_vpc" "demo_vpc" {
   cidr_block = "${var.vpc_cidr_block}"
   
   tags = {
-    Name = "aws-main-vpc",
-    Managed By = "Terraform Cloud"
+    Name = "aws-main-vpc"
+    ManagedBy = "Terraform Cloud"
   }
 }
 
