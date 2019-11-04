@@ -7,6 +7,7 @@ resource "aws_vpc" "demo_vpc" {
   
   tags = {
     Name = "aws-main-vpc"
+    Managed By = "Terraform Cloud"
   }
 }
 
